@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".ComplexDemoActivity"
+            android:name=".MyOwnActivity"
             android:theme="@style/Theme.AppCompat.Light" />
 
         <activity

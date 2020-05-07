@@ -88,7 +88,8 @@ public class DemoActivity extends AppCompatActivity implements IClientIOCallback
         mComplexBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DemoActivity.this, ComplexDemoActivity.class);
+                //Intent intent = new Intent(DemoActivity.this, ComplexDemoActivity.class);
+                Intent intent = new Intent(DemoActivity.this, MyOwnActivity.class);
                 startActivity(intent);
             }
         });
